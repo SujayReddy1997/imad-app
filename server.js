@@ -31,7 +31,7 @@ app.get('/test-db',function(req,res)
       } 
       else
       {
-          es.send(JSON.stringify(result));
+          es.send(JSON.stringify(result.rows));
       }
    });
    
